@@ -79,4 +79,16 @@ func main() {
 			}
 		}
 	}
+	
+	/* Works but costs money $0.05/text
+	ctx, cancel = context.WithTimeout(context.Background(), *timeout)
+	info, err := a.SMSCommand(ctx, "+cmgs=\"+15165814087\"", "hello go")
+	if err != nil {
+		fmt.Printf("Error: %s\n", err)
+	} else {
+		for _, l := range info {
+			fmt.Printf("Info: %s\n", l)
+		}
+	}
+	*/
 }
