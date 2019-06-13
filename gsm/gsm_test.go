@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/wkarasz/goat-modem/at"
 	"github.com/wkarasz/goat-modem/trace"
-	"github.com/wkarasz/sms/encoding/semioctet"
-	"github.com/wkarasz/sms/encoding/tpdu"
-	"github.com/wkarasz/sms/ms/pdumode"
+	"github.com/warthog618/sms/encoding/semioctet"
+	"github.com/warthog618/sms/encoding/tpdu"
+	"github.com/warthog618/sms/ms/pdumode"
 )
 
 func TestNew(t *testing.T) {

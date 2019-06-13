@@ -135,6 +135,8 @@ func (a *AT) Init(ctx context.Context) error {
 	cmds := []string{
 		"Z",       // reset to factory defaults (also clears the escape from the rx buffer)
 		//"^CURC=0", // disable general indications ^XXXX
+			     // this command can be specific to different devices ^CURC seems to apply to HUAWEI devices
+			     // while +CNMI is applicable to Waveshare SIM7600X
 	}
 	for _, cmd := range cmds {
 		if (cmd == "^CURC=0") {
