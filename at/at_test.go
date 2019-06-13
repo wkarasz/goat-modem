@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/modem/at"
-	"github.com/warthog618/modem/trace"
+	"github.com/wkarasz/goat-modem/at"
+	"github.com/wkarasz/goat-modem/trace"
 )
 
 func TestNew(t *testing.T) {

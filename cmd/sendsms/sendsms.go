@@ -12,12 +12,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/warthog618/modem/gsm"
-	"github.com/warthog618/modem/serial"
-	"github.com/warthog618/modem/trace"
-	"github.com/warthog618/sms/encoding/tpdu"
-	"github.com/warthog618/sms/ms/message"
-	"github.com/warthog618/sms/ms/sar"
+	"github.com/wkarasz/goat-modem/gsm"
+	"github.com/wkarasz/goat-modem/serial"
+	"github.com/wkarasz/goat-modem/trace"
+	"github.com/wkarasz/sms/encoding/tpdu"
+	"github.com/wkarasz/sms/ms/message"
+	"github.com/wkarasz/sms/ms/sar"
 )
 
 func main() {

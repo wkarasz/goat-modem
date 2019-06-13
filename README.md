@@ -2,10 +2,10 @@
 
 A low level Go driver for AT modems.
 
-[![Build Status](https://travis-ci.org/warthog618/modem.svg)](https://travis-ci.org/warthog618/modem)
-[![Coverage Status](https://coveralls.io/repos/github/warthog618/modem/badge.svg?branch=master)](https://coveralls.io/github/warthog618/modem?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/warthog618/modem)](https://goreportcard.com/report/github.com/warthog618/modem)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/warthog618/modem/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/wkarasz/goat-modem.svg)](https://travis-ci.org/wkarasz/goat-modem)
+[![Coverage Status](https://coveralls.io/repos/github/wkarasz/goat-modem/badge.svg?branch=master)](https://coveralls.io/github/wkarasz/goat-modem?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wkarasz/goat-modem)](https://goreportcard.com/report/github.com/wkarasz/goat-modem)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/wkarasz/goat-modem/blob/master/LICENSE)
 
 modem is a Go library for interacting with AT based modems.
 The initial impetus was to provide functionality to send and receive SMSs via
@@ -80,8 +80,8 @@ For more information, refer to package documentation, tests and example commands
 
 Package | Documentation | Tests | Example code
 ------- | ------------- | ----- | ------------
-[at](at) | [![GoDoc](https://godoc.org/github.com/warthog618/modem/at?status.svg)](https://godoc.org/github.com/warthog618/modem/at) | [at_test](at/at_test.go) | [modeminfo](cmd/modeminfo/modeminfo.go)
-[gsm](gsm) | [![GoDoc](https://godoc.org/github.com/warthog618/modem/gsm?status.svg)](https://godoc.org/github.com/warthog618/modem/gsm) | [gsm_test](gsm/gsm_test.go) | [sendsms](cmd/sendsms/sendsms.go), [waitsms](cmd/waitsms/waitsms.go)
-[info](info) | [![GoDoc](https://godoc.org/github.com/warthog618/modem/info?status.svg)](https://godoc.org/github.com/warthog618/modem/info) | [info_test](info/info_test.go) | [phonebook](cmd/phonebook/phonebook.go)
-[serial](serial) | [![GoDoc](https://godoc.org/github.com/warthog618/modem/serial?status.svg)](https://godoc.org/github.com/warthog618/modem/serial) | [serial_test](serial/serial_test.go) | [modeminfo](cmd/modeminfo/modeminfo.go), [sendsms](cmd/sendsms/sendsms.go), [waitsms](cmd/waitsms/waitsms.go)
-[trace](trace) | [![GoDoc](https://godoc.org/github.com/warthog618/modem/trace?status.svg)](https://godoc.org/github.com/warthog618/modem/trace) | [trace_test](trace/trace_test.go) | [sendsms](cmd/sendsms/sendsms.go), [waitsms](cmd/waitsms/waitsms.go)
+[at](at) | [![GoDoc](https://godoc.org/github.com/wkarasz/goat-modem/at?status.svg)](https://godoc.org/github.com/wkarasz/goat-modem/at) | [at_test](at/at_test.go) | [modeminfo](cmd/modeminfo/modeminfo.go)
+[gsm](gsm) | [![GoDoc](https://godoc.org/github.com/wkarasz/goat-modem/gsm?status.svg)](https://godoc.org/github.com/wkarasz/goat-modem/gsm) | [gsm_test](gsm/gsm_test.go) | [sendsms](cmd/sendsms/sendsms.go), [waitsms](cmd/waitsms/waitsms.go)
+[info](info) | [![GoDoc](https://godoc.org/github.com/wkarasz/goat-modem/info?status.svg)](https://godoc.org/github.com/wkarasz/goat-modem/info) | [info_test](info/info_test.go) | [phonebook](cmd/phonebook/phonebook.go)
+[serial](serial) | [![GoDoc](https://godoc.org/github.com/wkarasz/goat-modem/serial?status.svg)](https://godoc.org/github.com/wkarasz/goat-modem/serial) | [serial_test](serial/serial_test.go) | [modeminfo](cmd/modeminfo/modeminfo.go), [sendsms](cmd/sendsms/sendsms.go), [waitsms](cmd/waitsms/waitsms.go)
+[trace](trace) | [![GoDoc](https://godoc.org/github.com/wkarasz/goat-modem/trace?status.svg)](https://godoc.org/github.com/wkarasz/goat-modem/trace) | [trace_test](trace/trace_test.go) | [sendsms](cmd/sendsms/sendsms.go), [waitsms](cmd/waitsms/waitsms.go)

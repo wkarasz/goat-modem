@@ -14,9 +14,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/warthog618/modem/at"
-	"github.com/warthog618/modem/serial"
-	"github.com/warthog618/modem/trace"
+	"github.com/wkarasz/goat-modem/at"
+	"github.com/wkarasz/goat-modem/serial"
+	"github.com/wkarasz/goat-modem/trace"
 )
 
 func main() {

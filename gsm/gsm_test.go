@@ -20,11 +20,11 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/modem/at"
-	"github.com/warthog618/modem/trace"
-	"github.com/warthog618/sms/encoding/semioctet"
-	"github.com/warthog618/sms/encoding/tpdu"
-	"github.com/warthog618/sms/ms/pdumode"
+	"github.com/wkarasz/goat-modem/at"
+	"github.com/wkarasz/goat-modem/trace"
+	"github.com/wkarasz/sms/encoding/semioctet"
+	"github.com/wkarasz/sms/encoding/tpdu"
+	"github.com/wkarasz/sms/ms/pdumode"
 )
 
 func TestNew(t *testing.T) {

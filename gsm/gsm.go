@@ -8,9 +8,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/warthog618/modem/at"
-	"github.com/warthog618/modem/info"
-	"github.com/warthog618/sms/ms/pdumode"
+	"github.com/wkarasz/goat-modem/at"
+	"github.com/wkarasz/goat-modem/info"
+	"github.com/wkarasz/sms/ms/pdumode"
 )
 
 // GSM modem decorates the AT modem with GSM specific functionality.
