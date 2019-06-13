@@ -10,7 +10,7 @@ import (
 
 	"github.com/wkarasz/goat-modem/at"
 	"github.com/wkarasz/goat-modem/info"
-	"github.com/wkarasz/sms/ms/pdumode"
+	"github.com/warthog618/sms/ms/pdumode"
 )
 
 // GSM modem decorates the AT modem with GSM specific functionality.
